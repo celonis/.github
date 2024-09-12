@@ -3,9 +3,9 @@ subject: repo:celonis/jt-test-octo-sts-foo:ref:refs/heads/main
 claim_pattern:
   workflow_ref: celonis/jt-test-octo-sts-foo/.github/workflows/use-action.yaml@refs/heads/main
 
+permissions:
+  contents: read
+
 repositories:
 - cfg-ibc
 - jt-test-octo-sts-bar
-
-permissions:
-  contents: read
